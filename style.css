@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,500&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-image: linear-gradient(to top, #dbdcd7 0%, #dddcd7 24%, #e2c9cc 30%, #e7627d 46%, #b8235a 59%, #801357 71%, #3d1635 84%, #1c1a27 100%);
+	
+	font-family: 'Open Sans', sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+
+}
+
+.container {
+	background-color: #fff ;
+    box-shadow: 0 0 5px 5px rgb(218, 215, 215);
+	border-radius: 5px;
+	overflow: hidden;
+	width: 400px;
+	max-width: 100%;
+}
+
+.header {
+	border-bottom: 1px solid #f0f0f0;
+	background-color: #f7f7f7;
+	padding: 20px 40px;
+}
+
+.header h2 {
+	margin: 0;
+}
+
+.form {
+	padding: 30px 40px;	
+}
+
+#labelGenre{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+   
+   
+}
+option{
+    width: 100px;
+  
+}
+#club{
+    display: flex;
+}
+select{
+    margin-left: 30px;
+}
+.form-control {
+	margin-bottom: 10px;
+	
+    position: relative;
+
+}
+
+#msgnom,#msgprenom,#msgemail,#msgtele,#msgenre,#msggroupe{
+	width: 100%;
+}
+.form-control label {
+	display: inline-block;
+	margin-bottom: 5px;
+}
+
+.form-control input {
+	border: 2px solid #f0f0f0;
+	border-radius: 4px;
+	display: block;
+	font-family: inherit;
+	font-size: 14px;
+	padding: 10px;
+	width: 100%;
+}
+
+.form-control input:focus {
+	outline: 0;
+	border-color: #777;
+	
+}
+
+
+.form input[type="button"] {
+	background-color: #3d1635;
+	border: 2px solid #3d1635;
+	border-radius: 4px;
+	color: #fff;
+	display: block;
+	font-family: inherit;
+	font-size: 16px;
+	padding: 10px;
+	margin-top: 20px;
+	width: 100%;
+}
+.form input[type="button"]:hover{
+    background-color: #b8235a;
+	border: 2px solid #b8235a;
+}
+
+
+
+
+
+
+
+
+
+
+

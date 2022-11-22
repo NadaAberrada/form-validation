@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Form validation</h2>
+        </div> 
+        
+        <form id="form" class="form">
+            <div class="form-control">
+                <label for="Nom">Nom :</label>
+                <input type="text" placeholder="Nom" id="nom" />
+                <p  class="msg" id="msgnom"></p>
+                
+            </div>
+            
+            <div class="form-control">
+                <label for="Prénom">Prénom :</label>
+                <input type="text" placeholder="Prénom" id="prenom" />
+                <p class="msg" id="msgprenom"></p>
+              
+            </div>
+            <div class="form-control">
+                <label for="email">Email :</label>
+                <input type="text" placeholder="exp :Prenom.Nom@ofppt.com" id="email" />
+                <p class="msg" id="msgemail"></p>
+              
+            </div>
+            <div class="form-control"> 
+                <label for="Télephone">Télephone :</label>
+                <input type="text" placeholder="exp:+2126...." id="tele" />
+                <p class="msg" id="msgtele"></p>
+              
+            </div>
+            <div id="genre">
+                <label for="Genre">Genre :</label><br>
+                <div id="labelGenre">
+                    <span id="Mlle">
+                        <label for="Féminin">Féminin</label><input type="radio"  id="feminin" value="feminin" name="genre"/></span> 
+                     <span id="Mr"> <label for="Masculin" >Masculin</label> <input type="radio"  id="Masculin" value="Masculin" name="genre"/></span>
+                    
+                    </div>
+                     <p class="msg" id="msggenre"></p>
+            </div>
+            <div class="form-control">
+                <div >
+                    <label for="Groupe">Groupe :</label><br>
+                    <div id="labelGenre">
+                        <span id="DW101"><label for="DW101">DW101</label><input type="radio"  id="DW101," value="DW101" name="Groupe"/></span>
+                        <span id="DW102"><label for="DW102">DW102</label><input type="radio"  id="DW102" value="DW102" name="Groupe"/></span> 
+                        <span id="DW103"><label for="DW103">DW103</label><input type="radio"  id="DW103" value="DW103" name="Groupe"/></span><br><br>
+                        <span id="DM101"><label for="DM101">DM101</label><input type="radio"  id="DM101" value="DM101" name="Groupe"/></span>  
+                         <span id="DM102"> <label for="DM102" >DM102</label> <input type="radio"  id="DM102" value="DM102" name="Groupe"/></span></div>
+                
+                </div>
+                   <p class="msg" id="msggroupe"></p>   
+                <div class="form-control">
+                    <div id="club">
+                     <label for="club">Club(s) :</label>
+                    
+                    <select   id="clubselect"  name="clubselect"  multiple>
+                        <option value="Informatique">Informatique</option>
+                        <option value="Robotique">Robotique</option>
+                        <option value="art">art</option>
+                        <option value="Musique">Musique</option>
+                        <option value="Foot">Foot</option>
+                        <option value="Theatre">Theatre</option>
+                        
+                    </select>
+                    
+                    
+                </div>
+                <p class="msg" id="msgclub"></p>
+                   
+                  
+                </div>
+            <input type="button"  value="Submit"  onclick="btnFun(event)" >
+        </form>
+    </div>
+    <script src="./version1.js"></script>
+
+
+
+    
+    
+    
+    
+</body>
+</html>

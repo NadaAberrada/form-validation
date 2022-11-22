@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,500&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to top, #dbdcd7 0%, #dddcd7 24%, #e2c9cc 30%, #e7627d 46%, #b8235a 59%, #801357 71%, #3d1635 84%, #1c1a27 100%);
+    font-family: 'Open Sans', sans-serif;
+	display: flex;
+	
+	justify-content: center;
+  align-items: center;
+height: 100vh;
+
+	
+
+}
+#container {
+	background-color:  #f4f4f8 ;
+	box-shadow: 0 0 5px 5px rgb(218, 215, 215);
+	border-radius: 30px;
+	overflow: hidden;
+	width: 300px;
+	max-width: 100%;
+	
+}
+i{
+    font-size: 12rem; 
+    margin-left: 50px;
+
+}
+span{
+    font-size: 50px;
+    margin-left: 65px;
+    font-weight: bold;
+  
+}
+
